@@ -1,0 +1,6 @@
+let amount = +prompt("Nhập số tiền")
+let month = +prompt("Nhập số tháng ")
+let rate = month * (4.3/12)
+let rateAmount = Math.round(amount* (rate/100))
+rateAmount = rateAmount.toLocaleString()
+alert(` tiền lãi sau ${month} thang la: ${rateAmount} VND`)
